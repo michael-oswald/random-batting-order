@@ -49,8 +49,6 @@ export default function App() {
                 <button onClick={newRow} className="btn btn-primary"><MDBIcon fas icon="plus" /> New Player</button>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <button onClick={randomize} className="btn btn-warning"><MDBIcon fas icon="sync" /> Randomize!</button>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button onClick={randomize} className="btn btn-success" disabled><MDBIcon fas icon="cloud" /> Save Roster</button>
 
             </MDBContainer>
         </>
