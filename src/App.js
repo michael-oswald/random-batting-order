@@ -55,11 +55,6 @@ export default function App() {
     );
 }
 
-//from: https://javascript.info/task/shuffle#:~:text=Write%20the%20function%20shuffle(array,%2C%202%5D%20%2F%2F%20...
-// uses Fisher-Yates shuffle
 function shuffle(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        let j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
+    array.sort(() => .5 - Math.random());
 }
